@@ -2,7 +2,7 @@ FROM debian:sid-slim
 
 LABEL maintainer "Elias Obeid <ekobeid@gmail.com>"
 
-ENV SIAD_VERSION 1.2.2
+ENV SIAD_VERSION 1.3.1
 ENV SIAUI_VERSION SIAD_VERSION
 ENV SIAD_FILE Sia-v${SIAD_VERSION}-linux-amd64.zip
 ENV SIAUI_FILE Sia-UI-v${SIAUI_VERSION}-linux-x64.zip
