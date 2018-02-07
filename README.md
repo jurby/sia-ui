@@ -8,7 +8,7 @@ docker run --rm -d \
   -e DISPLAY=unix$DISPLAY \
   -v ~/.siacoin/:/root/ \
   -p 9981:9981 -p 9982:9982 \
-  obeyed/sia-ui
+  jurby/sia-ui
 ```
 
 If you get a message saying **No protocol specified**,
